@@ -111,6 +111,7 @@ body {
 
 	</form>
 
+
 	<div class="loginbox1">
 		<p align="center">For the amazing experience</p>
 		<div align="center">
@@ -120,6 +121,7 @@ body {
 		</div>
 
 	</div>
+
 
 	<script>
 		// Example starter JavaScript for disabling form submissions if there are invalid fields

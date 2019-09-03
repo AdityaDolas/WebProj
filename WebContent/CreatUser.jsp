@@ -60,9 +60,11 @@ body {
 <body>
 
 	<!--------------------------------------------------------Login Form--------------------------------------------------------->
+<%-- <jsp:include page="navBar.jsp"></jsp:include> --%>
 
 	<form action="Login" method="post" class="needs-validation" novalidate>
-	<input type="hidden" name="Action" value="createUser">
+	<input type="Hidden" name="action" value="createuser">
+	
 		<div class="form-group">
 
 			<div>
@@ -81,7 +83,7 @@ body {
 			<div class="col-xs-3">
 				<label for="validationCustom01">Mobile Number</label> <input
 					type="text" class="form-control" id="validationCustom01"
-					name="Mobile Number" placeholder="Username" value="" required>
+					name="num" placeholder="Number" value="" required>
 
 			</div>
 			<br>
@@ -89,7 +91,7 @@ body {
 			<div class="col-xs-3">
 				<label for="validationCustom01">Email</label> <input
 					type="text" class="form-control" id="validationCustom01"
-					name="Email" placeholder="Email" value="" required>
+					name="email" placeholder="Email" value="" required>
 
 			</div>
 			<br>
@@ -109,7 +111,9 @@ body {
 
 	</form>
 
-	<script>
+
+
+	<!-- <script>
 		// Example starter JavaScript for disabling form submissions if there are invalid fields
 		(function() {
 			'use strict';
@@ -134,10 +138,10 @@ body {
 		})();
 	</script>
 
-	<!--------------------------------------------------------Login Form---------------------------------------------------------->
+	------------------------------------------------------Login Form--------------------------------------------------------
 
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	Optional JavaScript
+	jQuery first, then Popper.js, then Bootstrap JS
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 		crossorigin="anonymous"></script>
@@ -148,6 +152,9 @@ body {
 	<script
 		src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-		crossorigin="anonymous"></script>
+		crossorigin="anonymous"></script> -->
+		
+		
+		
 </body>
 </html>
