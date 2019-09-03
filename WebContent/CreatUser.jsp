@@ -62,10 +62,11 @@ body {
 	<!--------------------------------------------------------Login Form--------------------------------------------------------->
 
 	<form action="Login" method="post" class="needs-validation" novalidate>
+	<input type="hidden" name="Action" value="createUser">
 		<div class="form-group">
 
 			<div>
-				<font size="6">Creat Account</font>
+				<font size="6">Create Account</font>
 			</div>
 			<br>
 
@@ -102,7 +103,7 @@ body {
 			</div>
 			<br></br>
 
-			<button class="btn btn-warning btn-block" type="submit">Creat Account</button>
+			<button class="btn btn-warning btn-block" type="submit">Create Account</button>
 
 		</div>
 

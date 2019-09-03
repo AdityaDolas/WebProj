@@ -16,7 +16,7 @@
 
 <title>Login Page</title>
 
-	<!--------------------------------------------------------Login Form css------------------------------------------------------>
+<!--------------------------------------------------------Login Form css------------------------------------------------------>
 
 <style type="text/css">
 body {
@@ -51,17 +51,36 @@ body {
 	border-radius: 5px;
 	border: 1px solid rgba(0, 0, 0, 0.15);
 }
+
+.invalid {
+	position: relative;
+	top: 550px;
+	left: 525px;
+	color: red;
+}
 </style>
 
-	<!-------------------------------------------------End of Login Form css----------------------------------------------------->
+<!-------------------------------------------------End of Login Form css----------------------------------------------------->
 
 
 </head>
 <body>
 
 	<!--------------------------------------------------------Login Form--------------------------------------------------------->
+	<%
+		String loginmsg = (String) request.getAttribute("loginmsg");
+		if (loginmsg != null) {
+	%>
+	<h6 class="invalid">
+		<%
+			out.print(loginmsg);
+			}
+		%>
+	</h6>
+
 
 	<form action="Login" method="post" class="needs-validation" novalidate>
+	<input type="hidden" name="action" value="loginuser">
 		<div class="form-group">
 
 			<div>
@@ -71,21 +90,23 @@ body {
 
 			<div class="col-xs-3">
 				<label for="validationCustom01">Username</label> <input type="text"
-					class="form-control" id="validationCustom01" name="uname" placeholder="Username"
-					value="" required>
+					class="form-control" id="validationCustom01" name="uname"
+					placeholder="Username" value="" required>
 
 			</div>
 			<br>
 
 			<div class="col-xs-3">
 				<label for="validationCustom02">Password</label> <input
-					type="password" class="form-control" id="validationCustom02" name="pass"
-					placeholder="Password" value="" required>
+					type="password" class="form-control" id="validationCustom02"
+					name="pass" placeholder="Password" value="" required>
 
-			</div><br></br>
+			</div>
+			<br></br>
 
-				<button class="btn btn-warning btn-block" type="submit" value="Logout">Login</button>
-				
+			<button class="btn btn-warning btn-block" type="submit"
+				value="Logout">Login</button>
+
 		</div>
 
 	</form>

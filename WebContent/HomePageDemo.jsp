@@ -64,12 +64,12 @@
 	right: 0;
 }
 
-.searchbar:hover>.search_input {
+.searchbar>.search_input {
 	padding: 0 10px;
 	width: 200px;
 	caret-color: red;
 	transition: width 0.08s linear;
-}
+} 
 
 .searchbar:hover>.search_icon {
 	background: white;
