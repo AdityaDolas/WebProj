@@ -119,7 +119,7 @@ body {
 	<div class="loginbox1">
 		<p align="center">For the amazing experience</p>
 		<div align="center">
-			<button class="btn btn-secondary btn-block" type="submit">
+			<button class="btn btn-outline-info btn-block" type="submit">
 				Create New Account
 			</button>
 		</div>

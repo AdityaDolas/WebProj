@@ -15,7 +15,7 @@ public class UserDao {
 
 	public boolean addUser(User u) {
 
-		System.out.print("DVHJVFHJVD" + u);
+		//System.out.print("DVHJVFHJVD" + u);
 		String sql = "insert into user values(?,?,?,?)";
 		try {
 			PreparedStatement ps = connection.prepareStatement(sql);
@@ -28,7 +28,7 @@ public class UserDao {
 
 			int i = ps.executeUpdate();
 			if (i > 0) {
-				System.out.println("Success");
+				//System.out.println("Success");
 				return true;
 			}
 

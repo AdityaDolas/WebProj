@@ -12,7 +12,7 @@ public class DBConnect {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		System.out.println("Connecting to database ...");
+		//System.out.println("Connecting to database ...");
 		return con;
 		
 	}
