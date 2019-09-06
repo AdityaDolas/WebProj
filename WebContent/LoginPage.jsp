@@ -58,19 +58,55 @@ body {
 	border-radius: 5px;
 	border: 1px solid rgba(0, 0, 0, 0.15);
 }
+
+.button {
+	border-radius: 4px;
+	background-color: #f4511e;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button:hover span {
+	padding-right: 25px;
+}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
 </style>
 
 <!-------------------------------------------------End of Login Form css----------------------------------------------------->
 
-
 </head>
 <body>
 
-
-
 	<!--------------------------------------------------------Login Form--------------------------------------------------------->
 
-
+	<jsp:include page="BG.jsp"></jsp:include>
 
 
 	<form action="Login" method="post" class="needs-validation" novalidate>
@@ -106,25 +142,26 @@ body {
 					out.print("Invalid Username or Password");
 					}
 				%>
-			</h6><br>
-
-			<button class="btn btn-warning btn-block" type="submit"
-				value="Logout">Login</button>
+			</h6>
+			<br>
+			<div class="loginbutton">
+				<button class="btn btn-warning btn-block" type="submit"
+					value="Logout">Login</button>
+			</div>
 
 		</div>
 
 	</form>
 
 	<form action="CreateUser.jsp">
-	<div class="loginbox1">
-		<p align="center">For the amazing experience</p>
-		<div align="center">
-			<button class="btn btn-outline-info btn-block" type="submit">
-				Create New Account
-			</button>
-		</div>
+		<div class="loginbox1">
+			<p align="center">For the amazing experience</p>
+			<div align="center">
+				<button class="btn btn-outline-info btn-block" type="submit">
+					Create New Account</button>
+			</div>
 
-	</div>
+		</div>
 	</form>
 
 	<script>

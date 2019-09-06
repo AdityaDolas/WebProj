@@ -52,7 +52,7 @@
 	left: 200px;
 }
 
-.search_input {
+/* .search_input {
 	color: white;
 	border: 0;
 	outline: 0;
@@ -61,7 +61,7 @@
 	caret-color: transparent;
 	line-height: 20px;
 	transition: width 0.2s;
-}
+} */
 
 .searchbar:hover>.search_input {
 	padding: 0 10px;
@@ -70,10 +70,10 @@
 	transition: width 0.08s;
 }
 
-.searchbar:hover>.search_icon {
+/* .searchbar:hover>.search_icon {
 	background: white;
 	color: #e74c3c;
-}
+} */
 
 .search_icon {
 	height: 25px;

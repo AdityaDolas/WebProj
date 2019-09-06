@@ -103,13 +103,12 @@
 </style>
 
 <script type="text/javascript">
-	
-$(function(){
-    $('.carousel-inner').carousel({
-        interval: 1000 * 2 // 1000 x 1 = 1 second
-    });
-});
-	
+	$(function() {
+		$('.carousel-inner').carousel({
+			interval : 1000 * 3
+		// 1000 x 1 = 1 second
+		});
+	});
 </script>
 
 </head>
@@ -140,13 +139,13 @@ $(function(){
 		data-ride="carousel">
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img class="d-block w-100"
-					src="https://assets.jassets.com/assets/images/retaillabs/2019/7/4/0c8c7ae8-9e83-449e-ba4a-f992ba5947e41562222307722-Women-Desktop-Slider-StaticPage-1300X470.webp"
-					alt="First slide">
+				<a href="MenShop.jsp"><img class="d-block w-100"
+					src="https://assets.jassets.com/assets/images/retaillabs/2019/7/4/83e2c582-47de-40fd-9b2a-0d7fd22e0d3d1562222307742-Men-Desktop-Slider-StaticPage-1300X470.webp"
+					alt="First slide"></a>
 			</div>
 			<div class="carousel-item">
 				<img class="d-block w-100"
-					src="https://assets.jassets.com/assets/images/retaillabs/2019/7/4/83e2c582-47de-40fd-9b2a-0d7fd22e0d3d1562222307742-Men-Desktop-Slider-StaticPage-1300X470.webp"
+					src="https://assets.jassets.com/assets/images/retaillabs/2019/7/4/0c8c7ae8-9e83-449e-ba4a-f992ba5947e41562222307722-Women-Desktop-Slider-StaticPage-1300X470.webp"
 					alt="Second slide">
 			</div>
 			<div class="carousel-item">
