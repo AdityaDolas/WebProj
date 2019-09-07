@@ -97,6 +97,11 @@ body {
 	opacity: 1;
 	right: 0;
 }
+
+/* body {
+	background-color: lightblue;
+} */
+
 </style>
 
 <!-------------------------------------------------End of Login Form css----------------------------------------------------->
@@ -104,16 +109,16 @@ body {
 </head>
 <body>
 
-	<!--------------------------------------------------------Login Form--------------------------------------------------------->
-
 	<jsp:include page="BG.jsp"></jsp:include>
 
+	<!--------------------------------------------------------Login Form--------------------------------------------------------->
+		
 
 	<form action="Login" method="post" class="needs-validation" novalidate>
 		<div class="form-group">
 
 			<div>
-				<font size="6">Login</font>
+				<font size="6"><a>Login</font></a>
 			</div>
 			<br>
 

@@ -59,6 +59,9 @@ body {
 </head>
 <body>
 
+		<jsp:include page="BG.jsp"></jsp:include>
+	
+
 	<!--------------------------------------------------------Login Form--------------------------------------------------------->
 
 	<form action="AddUser" method="post" class="needs-validation"
