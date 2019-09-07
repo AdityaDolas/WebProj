@@ -96,7 +96,7 @@
 }
 
 .Para {
-	background-color: black;
+	background-color: #2D2D2D;
 }
 
 /* <!----------------------------------------------Search bar--------------------------------------------------------------> */
@@ -128,14 +128,14 @@
 
 	<!--------------------------------------------------Navigation bar----------------------------------------------------------->
 
-	<jsp:include page="UNavbar.jsp"></jsp:include>
+	<jsp:include page="ANavbar.jsp"></jsp:include>
 
 	<!--------------------------------------------------Navigation bar----------------------------------------------------------->
 
 
 	<!--------------------------------------------------Carousel----------------------------------------------------------->
 
-	<div id="carouselExampleControls" class="carousel slide"
+	<!-- <div id="carouselExampleControls" class="carousel slide"
 		data-ride="carousel">
 		<div class="carousel-inner">
 			<div class="carousel-item active">
@@ -163,10 +163,10 @@
 			class="carousel-control-next-icon" aria-hidden="true"></span> <span
 			class="sr-only">Next</span>
 		</a>
-	</div>
+	</div> -->
 	<!--------------------------------------------------Shoes----------------------------------------------------------->
 
-	<div class="container mt-5">
+	<!-- <div class="container mt-5">
 		<div class="row">
 			<div class="col-md-3">
 				<div class="card">
@@ -224,13 +224,13 @@
 				</div>
 			</div>
 		</div>
-		<br>
-		<!--------------------------------------------------Shoes----------------------------------------------------------->
+		<br> -->
+	<!--------------------------------------------------Shoes----------------------------------------------------------->
 
-		<!--------------------------------------------------T-Shirt----------------------------------------------------------->
+	<!--------------------------------------------------T-Shirt----------------------------------------------------------->
 
 
-		<div class="row">
+	<!-- <div class="row">
 			<div class="col-md-3">
 				<div class="card">
 					<img class="card-img-top" alt=""
@@ -288,81 +288,34 @@
 			</div>
 		</div>
 	</div>
-	<br></br>
+	<br></br> -->
 
 	<!-----------------------------------------------End of T-Shirt----------------------------------------------------------->
 
 	<!----------------------------------------Start of Bottom of Paragraph---------------------------------------------------->
-	<div class="Para">
+	<!-- <div class="Para">
 		<div class="container">
 			<br>
 			<p>
-			<h6>Online Fashion Shopping: convenient, fast and affordable!</h6>
+			<h6 style="color: white;">What Does a Website Administrator Do?</h6>
 
 			<p class="blockquote-footer">
-				<em>Shopping is fun and exhilarating and more so when you can
-					shop 24x7 without leaving the comfort of home. This in simpler
-					words is what we call Jabong.com! Online shopping at Jabong.com is
-					convenient and affordable. You can find your desired products more
-					quickly and easily using our user-friendly online shopping
-					platform. Fill your cart up to the brim in just a few seconds and
-					get swift home delivery for all orders. All of this topped with our
-					exclusive offers makes for an exciting, irresistible combo!</em>
+				<em>Website administrators, also known as webmasters, web
+					developers or network and computer system administrators, are
+					responsible for all aspects of keeping website content and design
+					fresh, backed up, and fully functional. They typically work closely
+					with clients to make sure they understand how they want their
+					websites to look and function. Depending on their specific role,
+					they may also be responsible for making sure local networks are
+					functioning properly as well. The following chart provides an
+					overview of the education, job outlook and average salaries in this
+					field.</em>
 			</p>
 
-			<p>
-			<h6>The hottest online fashion destination of all times!</h6>
-			</p>
-
-			<p class="blockquote-footer">
-				<em>Fashion is definitely more accessible with Jabong.com. We
-					showcase the chicest of products be it clothing, shoes, jewellery,
-					accessories and cosmetics. Explore the latest collections of top
-					brands like Nike, Puma, Sangria, Adidas, Dorothy Perkins, Biba ,
-					Levis, United Colors of Benetton and many others. Apart from these,
-					brands that were only heard of but never found online before are
-					now showcased at Jabong.com. Jabong.com is here to make dreams come
-					true for all River Island and Mango lovers. Dorothy Perkins and
-					Miss Selfridge are some other international labels that you will
-					find here. If your wardrobe had been craving for a designer ethnic
-					collection, then you can feast your eyes on Rohit Bal for
-					Jabong.com. Also, take a tour of our fashion blog to stay abreast
-					of the latest runway trends and be a trendsetter among your
-					immediate circles.</em>
-			</p>
-
-			<p>
-			<h6>Avail added online shopping benefits</h6>
-			</p>
-
-			<p class="blockquote-footer">
-				<em>You choose your product, order it online, and we deliver it
-					right at your doorstep anywhere in India. You just need to pay for
-					the product, while we ensure free shipping* all the time on almost
-					everything with no strings attached. For any second thoughts after
-					purchase, we have in place a no questions asked return policy as
-					well. To offer you a safe and risk-free online shopping experience,
-					we offer COD facility. Could you have asked for more?</em>
-			</p>
-
-			<p>
-			<h6>24 x7 Online Fashion & Lifestyle Store for everyone</h6>
-			</p>
-
-			<p class="blockquote-footer">
-				<em>Forget the fashion streets of the world. We, at Jabong.com,
-					have all that you need to glam up your fashion quotient. From an
-					extensive range of mens shirts, western dresses for women, funky
-					clothes for kids and matching footwear, sports shoes and
-					accessories for everyone, we purvey diversity of choices in online
-					shopping in India under one umbrella. Your Jabong Online Shop has
-					arrived! Do not miss the attractive best buy prices and super
-					discount coupons. Get more, pay less!</em>
-			</p>
 
 
 		</div>
-	</div>
+	</div> -->
 
 	<!------------------------------------------End of Bottom of Paragraph---------------------------------------------------->
 

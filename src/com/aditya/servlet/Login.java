@@ -37,6 +37,8 @@ public class Login extends HttpServlet {
 		LoginDao dao = new LoginDao();
 
 		if (uname.equals("admin") && pass.equals("123")) {
+			HttpSession session = request.getSession();
+			session.setAttribute("username", uname);
 			response.sendRedirect("AdminHP.jsp");
 		} else if (dao.check(uname, pass)) {
 			HttpSession session = request.getSession();
