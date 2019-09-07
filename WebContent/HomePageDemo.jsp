@@ -102,14 +102,14 @@
 /* <!----------------------------------------------Search bar--------------------------------------------------------------> */
 </style>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 	$(function() {
 		$('.carousel-inner').carousel({
 			interval : 1000 * 3
 		// 1000 x 1 = 1 second
 		});
 	});
-</script>
+</script> -->
 
 </head>
 <body>

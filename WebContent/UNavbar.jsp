@@ -40,7 +40,7 @@
 	margin: 0;
 	padding: 0;
 	background: #e74c3c !important;
-} */
+}
 .searchbar {
 	margin-bottom: auto;
 	margin-top: auto;
@@ -52,7 +52,7 @@
 	left: 200px;
 }
 
-/* .search_input {
+.search_input {
 	color: white;
 	border: 0;
 	outline: 0;
@@ -61,8 +61,7 @@
 	caret-color: transparent;
 	line-height: 20px;
 	transition: width 0.2s;
-} */
-
+}
 .searchbar:hover>.search_input {
 	padding: 0 10px;
 	width: 200px;
@@ -70,11 +69,10 @@
 	transition: width 0.08s;
 }
 
-/* .searchbar:hover>.search_icon {
+.searchbar:hover>.search_icon {
 	background: white;
 	color: #e74c3c;
-} */
-
+}
 .search_icon {
 	height: 25px;
 	width: 25px;
@@ -85,7 +83,8 @@
 	border-radius: 50%;
 	color: white;
 }
-
+ */
+ 
 .Logout {
 	position: relative;
 }
@@ -99,7 +98,16 @@
 	background-color: #EFEFEF;
 }
 
-/* <!----------------------------------------------Search bar--------------------------------------------------------------> */
+.search {
+	position: relative;
+	right: 120px;
+}
+
+.profile {
+	position: relative;
+	right: 60px;
+}
+
 </style>
 
 </head>
@@ -121,7 +129,8 @@
 
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="HomePageDemo.jsp"><button class="btn btn-dark">
+		<a class="navbar-brand" href="HomePageDemo.jsp"><button
+				class="btn btn-dark">
 				<i class="fas fa-home">Home</i>
 			</button></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -133,45 +142,57 @@
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active"><a class="nav-link" href="MenShop.jsp">Men
-						<span class="sr-only">(current)</span>
+				<li class="nav-item active"><a class="nav-link"
+					href="MenShop.jsp">Men <span class="sr-only">(current)</span>
 				</a></li>
-				<li class="nav-item active"><a class="nav-link" href="WomenShop.jsp">Women
-						<span class="sr-only">(current)</span>
+				<li class="nav-item active"><a class="nav-link"
+					href="WomenShop.jsp">Women <span class="sr-only">(current)</span>
 				</a></li>
-				<li class="nav-item active"><a class="nav-link" href="KidShop.jsp">Kids
-						<span class="sr-only">(current)</span>
+				<li class="nav-item active"><a class="nav-link"
+					href="KidShop.jsp">Kids <span class="sr-only">(current)</span>
 				</a></li>
-				<li class="nav-item active"><a class="nav-link" href="About.jsp">About
-						<span class="sr-only">(current)</span>
+				<li class="nav-item active"><a class="nav-link"
+					href="About.jsp">About <span class="sr-only">(current)</span>
 				</a></li>
 			</ul>
 
-			<!--------------------------------------------------Search bar--------------------------------------------------------------->
-
-			<div class="container h-100">
+			<!-- <div class="container h-100">
 				<div class="d-flex justify-content-center h-100">
 					<div class="searchbar">
 						<input class="search_input" type="text" name=""
 							placeholder="Search..."> <a href="#" class="search_icon"><i
 							class="fas fa-search"></i></a>
 					</div>
+				</div> -->
+				
+			<div class="search">
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search"
+					placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+			</form>
+			</div>
+			
+			<form action="">
+				<div class="profile">
+					<button class="btn btn-outline-success">
+						<i class="fas fa-user">Profile</i>
+					</button>
 				</div>
+			</form>
 
-				<!--------------------------------------------------Search bar--------------------------------------------------------------->
 
-
-			</div>
-
-			<div class="Cart">
-				<button class="btn btn-info">
-					<i class="fas fa-shopping-cart">Cart</i>
-				</button>
-			</div>
+			<form action="">
+				<div class="Cart">
+					<button class="btn btn-outline-info">
+						<i class="fas fa-shopping-cart">Cart</i>
+					</button>
+				</div>
+			</form>
 
 			<form action="Logout">
 				<div class="Logout">
-					<button class="btn btn-danger" type="submit" value="Logout">
+					<button class="btn btn-outline-danger" type="submit" value="Logout">
 						<i class="fa fa-sign-out" aria-hidden="true">Logout</i>
 					</button>
 			</form>
